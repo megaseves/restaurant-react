@@ -1,0 +1,82 @@
+.menu-container {
+    /*background-color: gray;*/
+    padding: 0 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 200px;
+    cursor: pointer;
+}
+
+.logo-container {
+    /* background-color: green; */
+}
+
+.menu-list {
+    width: 700px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+}
+.menu-list a {
+    font-size: 18px;
+    color: white;
+    transition: color 0.4s linear;
+}
+.menu-list a:hover {
+    color: #c03512;
+}
+
+.social-icons {
+    width: 120px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contacts {
+    /*background-color: aqua;*/
+    width: 350px;
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+
+}
+.contacts div {
+    margin: auto;
+}
+
+.phone-number {
+    position: relative;
+    width: 175px;
+    padding: 10px 15px;
+    border: 1px solid #c03512;
+    color: #c03512;
+    font-size: 24px;
+    transition: color 0.4s linear;
+    cursor: pointer;
+}
+.phone-number:hover {
+    color: white;
+}
+.phone-number::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #c03512;
+    z-index: -1;
+    transition: transform 0.5s;
+    transform-origin: 0 0;
+    transition-timing-function: cubic-bezier(0.5,1.6,0.4,0.7);
+    transform: scaleX(0);
+
+}
+
+.phone-number:hover::before {
+    transform: scaleX(1);
+}
+

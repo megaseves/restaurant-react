@@ -1,0 +1,11 @@
+.test {
+    width: 21vw;
+    height: 6vw;
+    background-color: white;
+    margin: 0 auto;
+}
+
+.test-p {
+    font-size: 2vw;
+    text-align: center;
+}
