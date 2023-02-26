@@ -18,6 +18,10 @@
     width: 15vw;
     height: 15vw;
     cursor: pointer;
+    transition: opacity 0.4s;
+}
+.logo:hover {
+    opacity: 0.5;
 }
 
 
@@ -33,6 +37,7 @@
 }
 .menu-list a {
     font-size: 1.5vw;
+    font-weight: bold;
     margin: auto;
     color: white;
     transition: color 0.4s linear;
@@ -76,6 +81,7 @@
     transition: color 0.4s linear;
     cursor: pointer;
     font-size: 1.5vw;
+    font-weight: bold;
     margin: auto;
     text-align: center;
 }
@@ -100,5 +106,9 @@
 
 .phone-call:hover::before {
     transform: scaleX(1);
+}
+
+.menubar-icon {
+    display: none;
 }
 

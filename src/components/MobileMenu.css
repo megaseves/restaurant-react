@@ -1,0 +1,49 @@
+@media only screen and (max-width: 900px) {
+    .menu-container {
+        padding: 2vw 0 2vw 5vw;
+        height: 20vw;
+    }
+    .logo-container {
+        width: 22vw;
+        height: 22vw;
+    }
+    .logo {
+        width: 22vw;
+        height: 22vw;
+    }
+    .menu-list {
+        display: none;
+    }
+    .social-icons {
+        display: none;
+    }
+    .contacts {
+        height: 22vw;
+    }
+    .phone-call {
+        width: 36vw;
+        height: 9.4vw;
+        font-size: 5vw;
+        font-weight: bold;
+        border: 0.4vw solid #c03512;
+    }
+    .menubar {
+        width: 8vw;
+        height: 9vw;
+        margin: auto;
+    }
+    .menubar-icon {
+        display: block;
+        font-size: 9vw;
+        color: #c03512;
+        cursor: pointer;
+    }
+    .close-icon {
+        font-size: 9vw;
+        color: #c03512;
+        cursor: pointer;
+    }
+    .hide {
+        display: none;
+    }
+}
