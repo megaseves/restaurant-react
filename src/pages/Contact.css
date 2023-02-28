@@ -1,6 +1,43 @@
+.contact-container {
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    margin: 5vw auto;
+    color: white;
+}
 .google-map {
-    width: 100%;
-    height: 400px;
-    top: 300px;
+    width: 50vw;
+    height: 30vw;
+    margin-left: 22vw;
+}
+.frame {
+    width: 50vw;
+    height: 30vw;
+}
+
+.contact-details {
+    width: 35vw;
+    background-color: #333333;
     position: absolute;
+    padding: 5vw;
+    z-index: -1;
+    margin-bottom: 4vw;
+
+}
+.detail-header {
+    font-size: 3vw;
+    color: #C69749;
+}
+.detail-text {
+    margin-top: 2vw;
+    font-size: 1.5vw;
+    color: white;
+}
+.detail-time {
+    margin-top: 2vw;
+    font-size: 1.5vw;
+}
+.detail-phone {
+    margin-top: 2vw;
+    font-size: 1.5vw;
 }

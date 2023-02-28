@@ -3,12 +3,22 @@ import './Contact.css'
 export function Contact() {
     return(
         <div className={"contact-container"}>
-            <h1>Contact</h1>
+            <div className="contact-details">
+                <h1 className={"detail-header"}>CONTACT</h1>
+                <p className={"detail-text"}>
+                    101 Morrow St<br/>Jonesboro, LA 71251
+                </p>
+                <p className="detail-time">
+                    <span className="color-sec">Mon-Fri:</span> 12pm - 10pm <br/>
+                    <span className="color-sec">Sat-Sun:</span> 12pm - 11pm <br/>
+                </p>
+                <p className="detail-phone">
+                    30.3333.333
+                </p>
+            </div>
+
             <div className={"google-map"}>
-                <iframe title={"googleMap"}
-                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13270.420488663534!2d-112.6329461!3d33.7450257!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d4abdcb521afed%3A0xbf970112b5897d91!2sThe%20Giant%20Triangle!5e0!3m2!1shu!2shu!4v1677238828121!5m2!1shu!2shu"
-                    width="100%" height="100%" allowFullScreen="" loading="lazy"
-                    referrerPolicy="no-referrer-when-downgrade"></iframe>
+                <iframe title={"frame"} className={"frame"} src="https://www.google.com/maps/d/embed?mid=1vqi6kmh5rHhuTnjVi58T_YdNCCQ0mms&hl=hu&ehbc=2E312F" width="640" height="480"></iframe>
             </div>
         </div>
     )

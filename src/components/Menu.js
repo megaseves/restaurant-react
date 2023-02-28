@@ -38,7 +38,7 @@ export function Menu() {
                     <FontAwesomeIcon onClick={()=> window.open("https://goo.gl/maps/KqsYwdgXxWnchwmH9")} className={"icon"} icon={faGoogle} />
                 </div>
                 <a className={"phone-call"} href="tel:303333333">
-                    <span className="phone-number">30 3333 333</span>
+                    <span className="phone-number">30.3333.333</span>
                 </a>
                 <span onClick={menuClick} className="menubar">
                     <FontAwesomeIcon icon={faBars} className={"menubar-icon"} />
