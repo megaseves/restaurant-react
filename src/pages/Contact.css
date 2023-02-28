@@ -8,11 +8,18 @@
 .google-map {
     width: 50vw;
     height: 30vw;
+    margin-top: 4vw;
     margin-left: 22vw;
+
+    display: inline-block;
+    overflow: hidden;
 }
 .frame {
     width: 50vw;
-    height: 30vw;
+    height: 35vw;
+    position:relative;
+    top:-6vw;
+    border:none;
 }
 
 .contact-details {
