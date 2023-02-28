@@ -24,9 +24,10 @@ function menuClick() {
 export function Menu() {
     return(
         <div className="menu-container">
-            <div className="logo-container"><img className={"logo"} onClick={()=> window.location.assign("/")} src={process.env.PUBLIC_URL + '/logo/logo.png'} alt="logo"/></div>
+            <div className="logo-container"><span className="line"></span><i><p className="logo">FAST<br/><span className="food">FOOD</span></p></i></div>
             <div className="menu-list">
                 <a href="/">HOME</a>
+                <a href="/">MENU</a>
                 <a href="/">ABOUT US</a>
                 <a href="/contact">CONTACT</a>
             </div>

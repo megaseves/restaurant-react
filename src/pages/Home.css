@@ -1,11 +1,53 @@
-.test {
-    width: 21vw;
-    height: 6vw;
-    background-color: white;
+.body-container {
+    margin-top: 2vw;
+    color: white;
+}
+.greeting {
+    width: 70vw;
     margin: 0 auto;
 }
 
-.test-p {
-    font-size: 2vw;
-    text-align: center;
+.text {
+    font-size: 4vw;
+    font-weight: bold;
+}
+.reserve-text {
+    margin-top: 2vw;
+    font-size: 1.4vw;
+}
+
+.order-and-menu {
+    display: flex;
+    margin-top: 2vw;
+}
+.order-button {
+    width: 11.2vw;
+    height: 4vw;
+    background-color: #C69749;
+    border-radius: 1.3vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-weight: bold;
+    font-size: 1.4vw;
+    margin-right: 4vw;
+    cursor: pointer;
+    box-shadow: 0 0 0.5em 0 #C69749;
+}
+.menu-button {
+    text-decoration: underline;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 1.2vw;
+}
+
+.greeting-image {
+    position: absolute;
+    top: 0;
+    right: 20vw;
+    z-index: -1;
+    width: 30vw;
+    opacity: 0.8;
 }

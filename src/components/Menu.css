@@ -1,27 +1,58 @@
+@keyframes slideInFromUp {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
 .menu-container {
     /*background-color: gray;*/
+    animation: 1s ease-out 0s 1 slideInFromUp;
     padding: 0 2.5vw;
     display: flex;
     justify-content: space-between;
     width: 100vw;
-    height: 15vw;
+    height: 10vw;
     position: relative;
 }
 
 /* LOGO */
 .logo-container {
     /* background-color: green; */
-    width: 15vw;
-    height: 15vw;
-}
-.logo {
-    width: 15vw;
-    height: 15vw;
-    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-left: 2vw;
     transition: opacity 0.4s;
 }
-.logo:hover {
+.logo {
+    color: white;
+    cursor: pointer;
+    font-size: 2vw;
+    text-align: center;
+    transform: rotate(-10deg);
+    position: relative;
+    top: -1vw;
+
+}
+.logo-container:hover {
     opacity: 0.5;
+}
+.food {
+    font-weight: bold;
+    position: absolute;
+    top: 2vw;
+    left: 0;
+
+}
+.line {
+    width: 1vw;
+    height: 1vw;
+    background-color: #C69749;
+    position: relative;
+    top: 0.2vw;
+    border-radius: 10vw;
 }
 
 
@@ -43,14 +74,14 @@
     transition: color 0.4s linear;
 }
 .menu-list a:hover {
-    color: #c03512;
+    color: #735F32;
 }
 
 
 /* CONTACTS */
 .contacts {
     /*background-color: aqua;*/
-    width: 120vw;
+    width: 80vw;
     height: 10vw;
     display: flex;
     margin: auto;
@@ -76,17 +107,17 @@
     width: 12.5vw;
     height: 4vw;
     padding: 0.8vw 1.2vw;
-    border: 0.1vw solid #c03512;
-    color: #c03512;
+    border: 0.1vw solid #C69749;
+    color: #C69749;
     transition: color 0.4s linear;
     cursor: pointer;
     font-size: 1.5vw;
-    font-weight: bold;
+    font-weight: normal;
     margin: auto;
     text-align: center;
 }
 .phone-call:hover {
-    color: white;
+    color: black;
 }
 .phone-call::before {
     content: "";
@@ -95,7 +126,7 @@
     top: 0;
     width: 100%;
     height: 100%;
-    background: #c03512;
+    background: #C69749;
     z-index: -1;
     transition: transform 0.5s;
     transform-origin: 0 0;
@@ -111,4 +142,6 @@
 .menubar-icon {
     display: none;
 }
-
+.close-icon {
+    display: none;
+}
