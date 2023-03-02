@@ -1,0 +1,10 @@
+@media only screen and (max-width: 900px) {
+    .greeting-image {
+        width: 50vw;
+        top: 10vw;
+        right: 0;
+    }
+    .home-container {
+        margin-bottom: 30vw;
+    }
+}

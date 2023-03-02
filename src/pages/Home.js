@@ -1,5 +1,6 @@
 import React from 'react';
 import './Home.css';
+import './MobileHome.css';
 
 export function Home() {
     return(

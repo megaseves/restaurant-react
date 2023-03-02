@@ -1,15 +1,23 @@
 @media only screen and (max-width: 900px) {
     .menu-container {
         padding: 2vw 0 2vw 5vw;
-        height: 20vw;
+        height: 22vw;
     }
     .logo-container {
-        width: 22vw;
-        height: 22vw;
+        width: 18vw;
+        height: 18vw;
     }
     .logo {
-        width: 22vw;
-        height: 22vw;
+        font-size: 6vw;
+        top: -1vw;
+    }
+    .food {
+        top: 5.5vw;
+    }
+    .line {
+        width: 2vw;
+        height: 2vw;
+        top: 3vw;
     }
     .menu-list {
         display: none;
@@ -23,7 +31,8 @@
     .phone-call {
         width: 36vw;
         height: 9.4vw;
-        font-size: 5vw;
+        font-size: 5.2vw;
+        padding: 0.2vw 1.2vw;
         font-weight: normal;
         border: 0.4vw solid #C69749;
     }

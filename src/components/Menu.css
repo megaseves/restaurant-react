@@ -106,7 +106,7 @@
     position: relative;
     width: 12.5vw;
     height: 4vw;
-    padding: 0.8vw 1.2vw;
+    padding: 0.7vw 1.2vw;
     border: 0.1vw solid #C69749;
     color: #C69749;
     transition: color 0.4s linear;
@@ -115,6 +115,7 @@
     font-weight: normal;
     margin: auto;
     text-align: center;
+    z-index: 1;
 }
 .phone-call:hover {
     color: black;
