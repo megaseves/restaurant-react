@@ -5,6 +5,37 @@
         right: 0;
     }
     .home-container {
-        margin-bottom: 30vw;
+        margin-bottom: 40vw;
     }
+    .greeting {
+        width: 80vw;
+    }
+
+    .big-font {
+        font-size: 16vw;
+        position: relative;
+
+    }
+
+    .and-line-top {
+        position: absolute;
+    }
+    .and {
+        position: relative;
+        font-size: 10vw;
+
+    }
+    .and-line-bottom {
+        position: absolute;
+    }
+
+    .text {
+        font-size: 15vw;
+        text-align: center;
+        text-shadow: 0 0 0.5vw black;
+    }
+    .line-break {
+        display: block;
+    }
+
 }
