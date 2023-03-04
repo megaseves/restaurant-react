@@ -96,10 +96,16 @@
     height: 5vw;
     display: flex;
     justify-content: space-evenly;
+
 }
 .icon {
     font-size: 2vw;
     margin: auto;
+    opacity: 0.5;
+    color: peru;
+}
+.icon:hover {
+    opacity: 1;
 }
 
 .phone-call {
@@ -145,4 +151,12 @@
 }
 .close-icon {
     display: none;
+}
+
+#active {
+    color: peru;
+    opacity: 0.5;
+}
+#active:hover {
+    opacity: 0.8;
 }

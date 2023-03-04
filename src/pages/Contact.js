@@ -2,7 +2,7 @@ import React from 'react';
 import './Contact.css'
 export function Contact() {
     return(
-        <div className={"contact-container"}>
+        <div id={"contact"} className={"contact-container"}>
             <div className="contact-details">
                 <h1 className={"detail-header"}>CONTACT</h1>
                 <p className={"detail-text"}>
