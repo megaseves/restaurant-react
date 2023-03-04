@@ -1,5 +1,8 @@
 import React from 'react';
-import './Contact.css'
+import './Contact.css';
+import './MobileVersion/MobileContact.css';
+import {faPhone} from "@fortawesome/free-solid-svg-icons";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 export function Contact() {
     return(
         <div id={"contact"} className={"contact-container"}>
@@ -12,9 +15,12 @@ export function Contact() {
                     <span className="color-sec">Mon-Fri:</span> 12pm - 10pm <br/>
                     <span className="color-sec">Sat-Sun:</span> 12pm - 11pm <br/>
                 </p>
-                <p className="detail-phone">
-                    30.3333.333
-                </p>
+                <div className="detail-phone-div">
+                    <FontAwesomeIcon icon={faPhone} className={"phone-icon"} />
+                    <p className="detail-phone">
+                        30.3333.333
+                    </p>
+                </div>
             </div>
 
             <div className={"google-map"}>

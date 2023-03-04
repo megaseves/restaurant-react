@@ -6,7 +6,7 @@
         opacity: 0.4;
     }
     .home-container {
-
+        margin-bottom: 4vw;
     }
     .greeting {
         width: 80vw;
@@ -75,6 +75,8 @@
     .see-menu-button:hover {
         background-color: #131313;
     }
-
+    .serving {
+        display: none;
+    }
 
 }

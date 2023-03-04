@@ -74,7 +74,8 @@
     transition: color 0.4s linear;
 }
 .menu-list a:hover {
-    color: #735F32;
+    color: peru;
+    opacity: 0.5;
 }
 
 
@@ -156,7 +157,4 @@
 #active {
     color: peru;
     opacity: 0.5;
-}
-#active:hover {
-    opacity: 0.8;
 }

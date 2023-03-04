@@ -44,7 +44,16 @@
     margin-top: 2vw;
     font-size: 1.5vw;
 }
-.detail-phone {
+
+.detail-phone-div {
     margin-top: 2vw;
+    display: flex;
+}
+.phone-icon {
+    font-size: 1.2vw;
+    margin-right: 1.2vw;
+    padding-top: 0.5vw;
+}
+.detail-phone {
     font-size: 1.5vw;
 }
