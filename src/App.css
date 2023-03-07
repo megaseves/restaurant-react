@@ -12,6 +12,14 @@
 html {
 	scroll-behavior: smooth;
 }
+
+:root {
+  --mainColor: #C69749;
+  --secColor: #735F32;
+  --bgColor: #131212;
+  --btnColor: #1e1e1e;
+}
+
 body {
   background-color: #131212;
   overflow-x :hidden;
@@ -47,4 +55,5 @@ a {
 .link:hover {
   color: #735F32;
 }
+
 

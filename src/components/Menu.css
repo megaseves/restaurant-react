@@ -63,9 +63,8 @@
     display: flex;
     justify-content: space-evenly;
     margin: auto 5vw;
-
-
 }
+
 .menu-list a {
     font-size: 1.5vw;
     font-weight: bold;
@@ -158,3 +157,8 @@
     color: peru;
     opacity: 0.5;
 }
+
+.mobile-menu-list {
+    display: none;
+}
+
