@@ -42,4 +42,5 @@
     .wrap {
         width: 80vw;
     }
+    .hide { display: none; }
 }

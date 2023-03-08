@@ -44,15 +44,18 @@ export function Menu() {
     function toggleComponents() {
         const contactsComp = document.querySelector("#contact");
         const homeComp = document.querySelector(".home-container");
+        const foodMenuComp = document.querySelector("#menu");
         const socialIcons = document.querySelector(".social-icons");
 
         if (!contactsComp.classList.contains("hide")) {
             contactsComp.classList.add("hide");
             homeComp.classList.add("hide");
+            foodMenuComp.classList.add("hide");
             socialIcons.classList.add("social-icons-mobile-menu");
         } else {
             contactsComp.classList.remove("hide");
             homeComp.classList.remove("hide");
+            foodMenuComp.classList.remove("hide");
             socialIcons.classList.remove("social-icons-mobile-menu");
         }
     }
