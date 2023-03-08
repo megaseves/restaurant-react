@@ -1,0 +1,45 @@
+@media only screen and (max-width: 900px) {
+    .food-menu-container {
+        width: 80vw;
+        margin: 10vw auto;
+        display: block;
+    }
+
+    .burger-header {
+        width: 80vw;
+    }
+    .burger-header h3 {
+        font-size: 5vw;
+
+    }
+
+    /*BURGER*/
+
+    .burger {
+        width: 80vw;
+
+    }
+    .burger-name {
+        font-size: 4vw;
+
+    }
+    .burger-price {
+        font-size: 3.6vw;
+
+    }
+    .burger-details {
+        font-size: 3vw;
+    }
+
+    /*WRAP*/
+    .wrap-header {
+        width: 80vw;
+    }
+    .wrap-header h3 {
+        font-size: 5vw;
+    }
+
+    .wrap {
+        width: 80vw;
+    }
+}

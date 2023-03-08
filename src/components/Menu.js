@@ -79,7 +79,7 @@ export function Menu() {
 
             <nav className="menu-list">
                 <a href="/" id={"active"}>HOME</a>
-                <a href="/">MENU</a>
+                <a href="#menu">MENU</a>
                 <a href="/">ABOUT US</a>
                 <a href="#contact">CONTACT</a>
             </nav>
@@ -101,7 +101,7 @@ export function Menu() {
         <div className={"mobile-menu-list"}>
             <nav className={"mobile-navbar"}>
                 <a href="/" id={"active"}>HOME</a>
-                <a href="/">MENU</a>
+                <a href="#menu" onClick={showNavbar}>MENU</a>
                 <a href="/">ABOUT US</a>
                 <a href="#contact" onClick={showNavbar}>CONTACT</a>
             </nav>

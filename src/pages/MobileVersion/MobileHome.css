@@ -62,6 +62,7 @@
         text-align: center;
     }
     .see-menu-button {
+        display: none;
         margin: 12vw auto 0;
         width: 80vw;
         height: 20vw;

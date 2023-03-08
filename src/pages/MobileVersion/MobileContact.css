@@ -13,6 +13,7 @@
         width: 80vw;
         margin: 0 auto;
         background: none;
+        padding: 0 0 10vw 1vw;
     }
     .contact-details p {
         font-size: 4vw;
@@ -20,7 +21,7 @@
 
     .detail-header {
         font-size: 5vw;
-        color: white;
+        color: var(--mainColor);
     }
     .detail-phone-dive {
 
@@ -46,4 +47,6 @@
         padding-top: 1.4vw;
     }
     .hide { display: none; }
+
+
 }

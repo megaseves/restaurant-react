@@ -1,6 +1,65 @@
 .food-menu-container {
-    width: 50vw;
-    height: 20vw;
-    background-color: gray;
-    margin: 5vw auto;
+    width: 80vw;
+    /*background-color: red;*/
+    margin: 5vw auto 10vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* BURGER CONTAINER */
+.burger-header {
+    width: 46vw;
+    background-color: var(--secBgColor);
+}
+.burger-header h3 {
+    font-size: 3vw;
+    padding: 1.8vw;
+    color: var(--mainColor);
+}
+
+
+/* ONE BURGER */
+.burger {
+    width: 46vw;
+    padding: 1.8vw;
+    border-bottom: 0.1vw solid var(--secBgColor);
+    color: white;
+    opacity: 0.8;
+}
+
+.burger-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.burger-name {
+    font-size: 2.5vw;
+    font-weight: bold;
+}
+.burger-price {
+    font-size: 2vw;
+    color: white;
+}
+.burger-details {
+    font-size: 1.8vw;
+}
+
+
+/* WRAP CONTAINER */
+.wrap-header {
+    width: 30vw;
+    background-color: var(--secBgColor);
+}
+.wrap-header h3 {
+    font-size: 3vw;
+    padding: 1.8vw;
+    color: var(--mainColor);
+}
+
+.wrap {
+    width: 30vw;
+    padding: 1.8vw;
+    border-bottom: 0.1vw solid var(--secBgColor);
+    color: white;
+    opacity: 0.8;
 }
