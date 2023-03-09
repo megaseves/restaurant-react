@@ -1,0 +1,43 @@
+
+.about-us-container {
+    width: 100vw;
+    margin-bottom: 12vw;
+}
+
+.about-us {
+    display: flex;
+    width: 80vw;
+    margin: auto;
+    background-color: #1E1E1EFF;
+    border-top: 0.2vw solid var(--mainColor);
+
+}
+.about-us-image-section {
+    width: 50vw;
+}
+
+.about-us-image {
+    width: 40vw;
+    height: 100%;
+    opacity: 0.8;
+}
+.about-us-content {
+    width: 50vw;
+    padding: 0 3vw;
+
+}
+
+.about-us-header {
+    color: var(--mainColor);
+    font-size: 3vw;
+    margin: 1vw 0;
+}
+.about-us-text {
+    color: white;
+    font-size: 1.6vw;
+    opacity: 0.8;
+}
+
+.highlight {
+    color: var(--mainColor);
+}
