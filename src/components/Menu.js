@@ -45,17 +45,20 @@ export function Menu() {
         const contactsComp = document.querySelector("#contact");
         const homeComp = document.querySelector(".home-container");
         const foodMenuComp = document.querySelector("#menu");
+        const aboutUsComp = document.querySelector("#about");
         const socialIcons = document.querySelector(".social-icons");
 
         if (!contactsComp.classList.contains("hide")) {
             contactsComp.classList.add("hide");
             homeComp.classList.add("hide");
             foodMenuComp.classList.add("hide");
+            aboutUsComp.classList.add("hide");
             socialIcons.classList.add("social-icons-mobile-menu");
         } else {
             contactsComp.classList.remove("hide");
             homeComp.classList.remove("hide");
             foodMenuComp.classList.remove("hide");
+            aboutUsComp.classList.remove("hide");
             socialIcons.classList.remove("social-icons-mobile-menu");
         }
     }
@@ -83,7 +86,7 @@ export function Menu() {
             <nav className="menu-list">
                 <a href="/" id={"active"}>HOME</a>
                 <a href="#menu">MENU</a>
-                <a href="/">ABOUT US</a>
+                <a href="#about">ABOUT US</a>
                 <a href="#contact">CONTACT</a>
             </nav>
             <div className="contacts">
@@ -105,7 +108,7 @@ export function Menu() {
             <nav className={"mobile-navbar"}>
                 <a href="/" id={"active"}>HOME</a>
                 <a href="#menu" onClick={showNavbar}>MENU</a>
-                <a href="/">ABOUT US</a>
+                <a href="#about" onClick={showNavbar}>ABOUT US</a>
                 <a href="#contact" onClick={showNavbar}>CONTACT</a>
             </nav>
         </div>

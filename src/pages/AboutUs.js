@@ -4,7 +4,7 @@ import './MobileVersion/MobileAboutUs.css';
 
 export function AboutUs() {
     return(
-        <div className="about-us-container">
+        <div id={"about"} className="about-us-container">
             <section className="about-us">
                 <section className="about-us-image-section">
                     <img src={process.env.PUBLIC_URL + '/menuAboutUs.png'} alt="" className="about-us-image"/>
