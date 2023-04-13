@@ -7,6 +7,5 @@ Preview
 ![Preview about website](https://raw.githubusercontent.com/megaseves/restaurant-react/main/demo/preview.jpg)
 
 
-Mobile preview
 
-![Preview about website](https://raw.githubusercontent.com/megaseves/restaurant-react/main/demo/mobileVersion03.png)    ![Preview about website](https://raw.githubusercontent.com/megaseves/restaurant-react/main/demo/mobileVersion02.png)    ![Preview about website](https://raw.githubusercontent.com/megaseves/restaurant-react/main/demo/mobileVersion01.png)
+![Preview about website](https://raw.githubusercontent.com/megaseves/restaurant-react/main/demo/mobileView.png)
