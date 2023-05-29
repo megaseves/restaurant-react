@@ -1,7 +1,7 @@
 # Restaurant App
 
 ## Link to the website
-You can check the website [here](https://piktorfiai.hu/). (https://piktorfiai.hu/)
+You can check the website [here](https://fastfooddemodev.web.app/). (https://fastfooddemodev.web.app/)
 
 ## About the project
 
