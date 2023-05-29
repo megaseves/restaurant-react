@@ -10,7 +10,7 @@ export function Home() {
                 <p className={"text"}><span className={"big-font"}>ORDER <br className={"line-break"} />TASTY <br /> <span className={"and-line-top"}></span><i className={"and-container"}><p className={"and"}>and</p></i><span className={"and-line-bottom"}></span></span><br/><span className={"bottom-text"}>FRESH FOOD <span className={"color-sec"}>ANYTIME!</span></span></p>
                 <p className="reserve-text">Reserve a table by calling <a href="tel:303333333" className={"link bold"}>30 3333 333</a></p>
                 <div className="see-menu">
-                    <div className="see-menu-button">See Menu</div>
+                    <a href="#menu"><div className="see-menu-button">See Menu</div></a>
                 </div>
             </div>
             <div className="serving">
